@@ -20,6 +20,7 @@ class Hond():
 hond1 = Hond('Nick', 8, 'bruin')
 hond2 = Hond('Django', 3, 'zwart')
 hond3 = Hond('Burt', 5, 'snow-white')
+hond4 = Hond('henkie',99,'blauw')
 
 # een hondenkennel met drie honden
 kennelhonden = [hond1, hond2, hond3]

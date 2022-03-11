@@ -1,4 +1,5 @@
 #auto
+#demo JGP Roode 10-2-2022
 
 #Class definition
 class Auto:
@@ -16,6 +17,9 @@ class Auto:
     def get_kleur(self):
         return self.kleur
 
+    def geefGas(self):
+        print('broemmmmmmmm')
+
 
 auto1 =Auto("wit","Ford")
 
@@ -23,3 +27,17 @@ print(auto1)
 print(auto1.get_kleur())
 auto1.set_kleur("oranje")
 print(auto1.get_kleur())
+
+auto2=Auto('rood', 'toyota')
+auto1.set_kleur('groen')
+auto3=Auto('geel','fordt')
+
+wagenpark=[auto1,auto2]
+wagenpark.append(auto3)
+
+
+
+for kar in wagenpark:
+    print(kar)
+    karretje.geefGas()
+   # karretje.geefGas()
