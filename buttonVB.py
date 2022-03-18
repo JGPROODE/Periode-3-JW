@@ -1,7 +1,8 @@
+from datetime import datetime
 import tkinter as tk
 
 def write_slogan():
-    print("Tkinter is easy to use!")
+    print("Tkinter is easy to use!")#+datetime.now)
 
 root = tk.Tk()
 frame = tk.Frame(root)
